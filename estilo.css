@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    color:white;
+    margin: 10px;
+}
+.contenedor{
+    background: white;
+    width: 90%;
+}
+/*EJERCICIO1
+:hover .dos{
+    transform: translate(100px, 100px);
+    
+}*/
+/*EJERCICIO2
+:hover .dos{
+    transform: translate(100px, -100px);
+}*/
+
+:hover .tres, .cuatro{
+    transform: translatey(-60px);
+}
+
+:hover .dos{
+    transform: translate(-10px,-70px);
+}
+
+:hover .cuatro{
+    transform: scale(2);
+    
+}
+    
